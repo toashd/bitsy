@@ -2,6 +2,7 @@
 
 Go package for securely generating (encoding/decoding) TinyURL- and bit.ly-like URLs.
 
+[![GoDoc](https://godoc.org/github.com/toashd/bitsy?status.svg)](https://godoc.org/github.com/toashd/bitsy)
 [![Build Status](https://travis-ci.org/toashd/bitsy.svg)](https://travis-ci.org/toashd/bitsy)
 
 ## Usages
