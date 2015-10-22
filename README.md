@@ -2,6 +2,8 @@
 
 Go package for securely generating (encoding/decoding) TinyURL- and bit.ly-like URLs.
 
+[![Build Status](https://travis-ci.org/toashd/bitsy.svg)](https://travis-ci.org/toashd/bitsy)
+
 ## Usages
 
 The intended use is that incrementing, consecutive integers will be used as keys to generate the short URLs. For example, when creating a new URL, the unique integer ID assigned by a database could be used to generate the URL - or a simple counter may be used. As long as the same integer is not used twice, the same short URL will not be generated twice.
